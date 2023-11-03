@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style</title>
+    <style>
+        #content1{
+            background-color: rgb(214, 154, 154) ;
+            color: brown;
+        }
+        .hello{
+            color: blue;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Style</h1>
+    <!--inline css-->
+    <h1 style="color: blue;">Inline Syle</h1>
+
+    <p style="background-color:rgb(25, 179, 179); color: rgb(126, 77, 175);padding: 15px;">
+        Starting data distribution in Cassandra involves careful planning and configuration 
+        to ensure that your data is distributed, replicated, and queried efficiently across 
+        the cluster. It's important to follow best practices and monitor your cluster's health
+         to maintain high availability and reliability.</p>
+
+
+
+    <!--internal css-->
+    <h1 class="hello">Internal Style</h1>
+    
+    <p id="content1">Starting data distribution in Cassandra involves careful planning and configuration 
+        to ensure that your data is distributed, replicated, and queried efficiently across
+         the cluster. It's important to follow best practices and monitor your cluster's 
+         health to maintain high availability and reliability.
+    </p>
+
+    <!--External css-->
+    <h1 class="hello23">External Style</h1>
+    
+    <p id="content123">Starting data distribution in Cassandra involves careful planning and configuration 
+        to ensure that your data is distributed, replicated, and queried efficiently across
+         the cluster. It's important to follow best practices and monitor your cluster's 
+         health to maintain high availability and reliability.
+    </p>
+
+
+    <!--Type-->
+    <h3>Type Selector</h3>
+
+    <!--id-->
+    <h4 id="h4">ID Selector</h4>
+
+    <!--class-->
+    <h6 class="h6">Class Selector</h6>
+
+    <!--Child-->
+    <button>Click on me</button><br><br>
+    <button>Click on me too</button><br><br>
+    <div><!--not a child-->
+        <button>Click on me also </button><br><br>
+    </div>
+    <!--Box model-->
+    <div class="box">Content</div>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    color: antiquewhite;
+}
+/* @media only screen and (min-width :425px) {
+    body{
+        background-color: rgb(37, 7, 65);
+        color: rgb(111, 87, 87);
+        text-align: center;
+    }
+    #cd{
+        display: none;
+    }
+}
+@media only screen and (min-width :768px) {
+    body{
+        background-color: rgb(106, 53, 156);
+        color: rgb(25, 11, 11);
+        text-align: center;
+    }
+    #cd{
+        display: block;
+    }
+} */
+
+@media only screen and (max-width :768px) and (min-width :425px){
+    body{
+        background-color: rgb(156, 53, 135);
+        color: rgb(25, 11, 11);
+        text-align: center;
+    }
+    #cd{
+        display: block;
+    }
+}

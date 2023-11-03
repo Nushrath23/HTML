@@ -1,0 +1,37 @@
+.animation{
+    width:200px;
+    height:200px;
+    background-color: blue;
+    position: relative;/*content relative to previous element*/
+    animation-name:examplen;/*same name as key frame */
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+/* @keyframes examplen{ 
+    0%{background-color: red;left:0px;top:0px;}
+    25%{background-color: yellow;left:100px;top:0px;}
+    50%{background-color: green;left:100px;top:100px;}
+    75%{background-color: blue;left:100px;top:200px;}
+    100%{background-color: purple;left:0px;top:200px;}
+}  to start and end in 100 pieces*/
+
+@keyframes examplen{
+    from {background-color: red;left:0px;top:0px;width:10px;height: 10px;}
+    to {background-color: rgb(51, 0, 255);left:200px;top:200px;width:100px;height: 100px;}
+}
+
+/* Transition */
+.trans{
+    width:200px;
+    height: 200px;
+    position: relative;
+    background-color: rgb(24, 5, 5);
+    transition:background-color 3s,width 3s,height 1s; /*2s to change color*/
+}
+.trans:hover{
+    background-color: rgb(30, 30, 129);
+    width: 500px;
+    height: 500px;
+
+
+}
