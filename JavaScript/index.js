@@ -12,8 +12,8 @@ console.log("Web Programming");
 document.writeln('Nushrath 1');
 document.write('<br>');//adding new line 
 document.write('Kandy');
-//document.write('<h1>Hi peeps!</h1>');//adding heading style
-document.write('<br><button>Click me</button>');//adding button
+document.write('<h1>Hi peeps!</h1>');//adding heading style
+document.write('<button>Click me</button>');//adding button
 
 
 
@@ -89,3 +89,15 @@ console.log(c);//cannot use out of scope
 
 a=10;//can reassign
 console.log(a);
+
+//3. const ------------
+const x=90;
+const x=99;//cannot re declare 
+
+{
+    const y=90;
+}
+console.log(y);//can not use outside the block
+
+const r=34;
+r=23;//cannot reassign
