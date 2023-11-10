@@ -169,3 +169,9 @@ console.log("NOT u? ", !u);//3.NOT(!)
 console.log("NOT o? ", !o);//3.NOT(!)
 
 
+//FUNCTION 
+
+function MyFunction ()
+{
+
+}
