@@ -85,7 +85,7 @@ let v=6;
 {
     let c=90;
 }
-console.log(c);//cannot use out of scope
+//console.log(c);//cannot use out of scope
 
 v=10;//can reassign
 console.log(v);
@@ -97,10 +97,10 @@ const x=90;
 {
     const y=90;
 }
-console.log(y);//can not use outside the block
+//console.log(y);//can not use outside the block
 
 const r=34;
-r=23;//cannot reassign
+//r=23;//cannot reassign
 
 
 
@@ -109,19 +109,63 @@ r=23;//cannot reassign
 
 const q=12;
 const s=34;
-const tot=q+s;
-console.log(tot);//1.addition(+)
+const add=q+s;
+console.log(add);//1.addition(+)
 
-const diff=s-q;
-console.log(diff);//2.subtraction(-)
+const sub=s-q;
+console.log(sub);//2.subtraction(-)
 
-const prod=q*s;
-console.log(prod); //3.multiplication(*)
+const mul=q*s;
+console.log(mul); //3.multiplication(*)
 
 const div=s/q;
 console.log(div);//4.division(/)
 
 const mod=s%q;
 console.log(mod);//5.modulus(%)
+
+let h=100;
+h++;
+console.log(h) //6.increment
+
+let i=100;
+i--;
+i--;
+console.log(i); //7.decrement
+
+
+//COMPARISION OPERATORS 
+
+const se=14;
+const re=13;
+console.log("se = ",se);
+console.log("re = ",re);
+
+console.log("Equal =", se==re);//1.equal(==)
+
+console.log("Not Equal =", se!=re);//2. not equal(!=)
+
+console.log("Greater than =", se>re);//3.Greater than (>)
+
+console.log("Less than =", se<re);//4.Less than(<)
+
+console.log("Greater than or equal =", se>=re);//5.Greater than or equal(>=)
+
+console.log("Less than or equal =", se<=re);//6.Less than or equal(<=)
+
+
+//LOGICAL OPERATOR
+
+const u=true;
+const o=false;
+console.log("u=",u);
+console.log("o=",o);
+
+console.log("AND ? ", u && o); //1.AND(&&)
+
+console.log("OR ? ", u || o ); //2.OR(||)
+
+console.log("NOT u? ", !u);//3.NOT(!)
+console.log("NOT o? ", !o);//3.NOT(!)
 
 
