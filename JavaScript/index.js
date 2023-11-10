@@ -18,7 +18,7 @@ document.write('<button>Click me</button>');//adding button
 
 
 //global variable
-var name = 'Nush';
+var name1 = 'Nush';
 
 //local variable
 {
@@ -79,20 +79,20 @@ a =50;
 console.log(a);//reassign
 
 //2. let -------------
-let a=6;
-let a=5;//cannot redeclare
+let v=6;
+//let v=5;//cannot redeclare
 
 {
     let c=90;
 }
 console.log(c);//cannot use out of scope
 
-a=10;//can reassign
-console.log(a);
+v=10;//can reassign
+console.log(v);
 
 //3. const ------------
 const x=90;
-const x=99;//cannot re declare 
+//const x=99;//cannot re declare 
 
 {
     const y=90;
@@ -101,3 +101,27 @@ console.log(y);//can not use outside the block
 
 const r=34;
 r=23;//cannot reassign
+
+
+
+
+//ARITHMETIC OPERATORS 
+
+const q=12;
+const s=34;
+const tot=q+s;
+console.log(tot);//1.addition(+)
+
+const diff=s-q;
+console.log(diff);//2.subtraction(-)
+
+const prod=q*s;
+console.log(prod); //3.multiplication(*)
+
+const div=s/q;
+console.log(div);//4.division(/)
+
+const mod=s%q;
+console.log(mod);//5.modulus(%)
+
+
