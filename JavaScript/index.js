@@ -189,6 +189,80 @@ const myCity = () =>{
 
 myCity(); //arrow function call 
 
+//parameterized function 
+function MynewFunc(name,address)
+{
+    console.log("My name is : ",name);
+    console.log("My address is :",address);
+}
+
+MynewFunc("Nushrath", "Kandy SriLanka");
+
+// task 1------------------
+//    function name -> NumberEqual
+//    parameters 2 : number1, number 2
+//    add both numbers and print the total
+//-------------------
+
+function NumberEqual(number1,number2){
+    console.log("Total is :",number1+number2);
+}
+
+NumberEqual(12,24);
+
+//return valued function
+
+function NumEq(numb1,numb2){
+    const eq=numb1+numb2;
+    return eq//return a value
+}
+
+const val = NumEq(12,55);//catching the return val
+console.log("Total :",val);//display the val
 
 
+//- task 2--------------------
+//    parameters : 4 numbers <100
+//    task: return and print average
+
+const Avg= (n1,n2,n3,n4) =>{
+ const equal1=n1+n2+n3+n4;
+ const avg=equal1/4;
+ return avg;
+}
+
+const avg=Avg(99,78,98,67);
+console.log("Average",avg);
+
+
+//-------------------------------
+
+
+//FLOW CONTROLLERS
+//1.IF--
+if(true){
+    console.log("Pass");
+}
+
+//2.IF-ELSE
+const marks=60;
+if(marks>50){
+    console.log("Pass");
+}else{
+    console.log("Fail");
+}
+
+//3.ELSE-IF
+if(marks>80){
+    console.log("A");
+}
+else if(marks >60){
+    console.log("B");
+}
+else if(marks>45){
+    console.log("C");    
+}
+else{
+    console.log("Fail");
+}
 
