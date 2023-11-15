@@ -110,19 +110,22 @@ const r=34;
 const q=12;
 const s=34;
 const add=q+s;
-console.log(add);//1.addition(+)
+console.log("A = ",q);
+console.log("B = ",s);
+
+console.log("A + B =",add);//1.addition(+)
 
 const sub=s-q;
-console.log(sub);//2.subtraction(-)
+console.log("B - A =",sub);//2.subtraction(-)
 
 const mul=q*s;
-console.log(mul); //3.multiplication(*)
+console.log("A X B =",mul); //3.multiplication(*)
 
 const div=s/q;
-console.log(div);//4.division(/)
+console.log("B / A =",div);//4.division(/)
 
 const mod=s%q;
-console.log(mod);//5.modulus(%)
+console.log("B % A =",mod);//5.modulus(%)
 
 let h=100;
 h++;
@@ -171,7 +174,21 @@ console.log("NOT o? ", !o);//3.NOT(!)
 
 //FUNCTION 
 
-function MyFunction ()
+function MyFunction () //function definition
 {
-
+ console.log("My name is : Nushrath");
 }
+
+MyFunction(); //Function call
+
+//arrow  function
+
+const myCity = () =>{
+ console.log("I'm from Kandy, Sri Lanka");
+}
+
+myCity(); //arrow function call 
+
+
+
+
