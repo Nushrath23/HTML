@@ -294,5 +294,78 @@ switch(swi)
 }
 
 
-//6.
+//--------------------------
+
+//LOOPS
+
+//1.For--
+for(let i=0;i<10;i++)
+{
+    console.log(i);
+}
+
+//eg 
+const arr=["A","B","C","D","E","F"]; //6 elements
+for(let i=0;i<arr.length;i++) //loop=length times
+{
+    console.log(arr[i]);
+}
+
+//2.While--
+let sw=0;
+while(s<2){
+    console.log("Name");
+    sw++;
+}
+
+//3.Do - While ---
+
+let pq=0;
+do{
+    console.log(pq);
+    pq++;
+}while(pq < 4);
+
+
+//Break
+for(let i=0;i<10;i++){
+    console.log(i);
+    if(i==5)
+    {
+    break;
+    }
+}
+
+
+//ARRAY ---------
+const fruits=["Banana","Orange","Apple","Mango"];
+//const fruit = fruits.pop();
+//console.log(fruit);
+
+//fruits.push("Kiwi");
+//console.log(fruits);
+
+//const fruit=fruits.shift();
+//console.log(fruit);
+
+//fruits.unshift("Kiwi");
+//console.log(fruits);
+
+
+//Object ------
+const person = {
+    name:"Nushrath",
+    address: "Kandy",
+    run: function()
+    { console.log("run")},
+    walk: function()
+    {console.log("walk")},
+}
+const name12= person.address;
+//console.log(name1);
+person.run();
+person.walk();
+
+
+
 
