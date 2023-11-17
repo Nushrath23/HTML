@@ -266,3 +266,33 @@ else{
     console.log("Fail");
 }
 
+
+
+//4.NESTED IF
+const mark=90;
+if(mark>80){
+    if(mark==90)
+    {
+        console.log("Marks=90");
+    }
+    else{
+        console.log("Other");
+    }
+}
+
+
+//5.SWITCH
+const swi="AFSD";
+switch(swi)
+{
+    case "ACPT":
+        console.log("print ACPT");
+        break;
+    case "AFSD":
+        console.log("print AFSD");
+        break;
+}
+
+
+//6.
+
