@@ -368,4 +368,42 @@ person.walk();
 
 
 
+//onclick
+// function clickMe(){
+//     console.log("Function clicked");
+// }
 
+//onChange
+function onChange(){
+    console.log("Change print");
+}
+
+function onChange1(){ //getting the input vlue printed 
+    const text=document.getElementById('txt-1').value;
+    console.log(text);
+}
+
+function clickMe(){
+    const text=document.getElementById("text-1")
+    console.log(text);
+    document.getElementById("display").innerHTML;
+}
+
+function mouseOver(){
+    document.getElementById("mouse").style.backgroundColor='blue';
+    document.getElementById("mouse").style.width='300px';
+}
+
+function mouseOut(){
+    document.getElementById("mouse").style.backgroundColor='red';
+
+}
+
+
+function down(){
+    console.log("print down");
+}
+
+function up(){
+    console.log("print up");
+}
