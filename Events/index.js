@@ -37,3 +37,26 @@ function kup(){
     document.getElementById('display-3').innerText=sum
     
 }
+
+function grade(){
+    const m=document.getElementById('mrkstd').value;
+   let g=""
+    if(m>=75){
+        g="A"
+    }
+    else if(m>=65){
+        g="B"
+    }
+    else if(m>=45){
+        g="C"
+    }
+    else if(m>=35){
+        g="S"
+    }
+    else
+    {
+        g="Failed"
+        document.getElementById('display-g').style.color="Red"
+    }
+    document.getElementById('display-g').innerHTML="Grade: "+g;
+}
