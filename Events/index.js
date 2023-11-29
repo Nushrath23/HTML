@@ -60,3 +60,70 @@ function grade(){
     }
     document.getElementById('display-g').innerHTML="Grade: "+g;
 }
+
+
+function position(){
+    const sname=document.getElementById('shrtname').value
+    let pos=""
+    switch(sname){
+        case "intern":
+            pos="Intern Software Engineer"
+            break;
+        case "ase":
+            pos="Associate Software Engineer"
+            break;
+        case "se":
+            pos="Software Engineer"
+            break;
+        case "sse":
+            pos="Senior Software Engineer"
+            break;
+        case "atl":
+            pos="Assistant Tech Lead"
+            break;
+        case "tl":
+            pos="Tech Lead"
+            break;
+        default:
+            pos="Error key word"
+            break;
+    }
+    document.getElementById('display-p').innerHTML=pos;
+}
+const arr1=[];
+function addarr(){
+    const arrip=document.getElementById('arrayin').value
+    arr1.push(arrip)
+    document.getElementById('arrayin').value=""
+    
+}
+function printarr(){
+    document.getElementById('display-arr').innerHTML=arr1;
+}
+
+function Authen(){
+    const un="Nush";
+    const pw1="123";
+    const unui=(document.getElementById('txt').value).toUpperCase();
+    const pwui=(document.getElementById('pw').value).toUpperCase();
+    if ((un.toUpperCase()) == unui)
+    {
+        if((pw1.toUpperCase())== pwui)
+        {
+            document.getElementById('display-pw').style.color="gREEN"
+            document.getElementById('display-pw').innerHTML="Login Success";
+
+        }
+        else
+        {
+            document.getElementById('display-pw').style.color="RED"
+            document.getElementById('display-pw').innerHTML="Wrong password!";
+        }
+    }
+    else
+    {
+        document.getElementById('display-pw').style.color="RED"
+        document.getElementById('display-pw').innerHTML="Wrong Username!";
+    }
+    
+}
