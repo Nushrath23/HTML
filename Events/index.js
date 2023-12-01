@@ -127,3 +127,28 @@ function Authen(){
     }
     
 }
+const Arraynew=[]
+function genArray(){
+    for(let i=0;i<50;i++){
+        Arraynew[i]=Math.floor(Math.random()*100);
+    }
+    console.log(Arraynew.length)
+}
+function disArray(){
+    
+    document.getElementById('display-arrd').innerHTML= Arraynew
+}
+function disDiv(){
+    const newARR=[]
+    const d=parseInt(document.getElementById('divident').value)
+    for(let i=0;i<50;i++){
+        const j=Arraynew[i];
+        if(j %d==0)
+        { 
+            newARR.push(Arraynew[i]);
+        }
+    }
+    document.getElementById('display-aardiv').innerHTML= newARR
+    console.log(newARR.length)
+    
+}
